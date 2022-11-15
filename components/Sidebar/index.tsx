@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { PencilLine } from 'phosphor-react'
+import { Avatar } from '../Avatar';
 import styles from './Sidebar.module.css'
 
 export function Sidebar() {
@@ -11,10 +12,9 @@ export function Sidebar() {
                 alt={''}
             />
             <div className={styles.profile}>
-                <img
-                    className={styles.avatar}
-                    src={'https://github.com/lucastorress.png'}
-                    alt={''}
+                <Avatar
+                    hasBorder
+                    src='https://github.com/lucastorress.png'
                 />
                 <strong>Lucas Torres</strong>
                 <span>Software Engineer</span>

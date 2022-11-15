@@ -30,21 +30,6 @@
     line-height: 1.6;
 }
 
-/*
-    box-sizing: initial -> Isso irá fazer com que o padding não seja contado
-    no tamanho total do elemento.
-
-    Mas podemos também usar a função calc() do CSS para fazer o cálculo
-    manualmente.
-*/
-.avatar {
-    width: calc(3rem + 12px);
-    height: calc(3rem + 12px);
-    border-radius: 8px;
-    border: 4px solid var(--gray-800);
-    outline: 2px solid var(--green-500);
-}
-
 .sidebar footer {
     border-top: 1px solid var(--gray-600);
     margin-top: 1.5rem;
