@@ -1,5 +1,6 @@
 import { Avatar } from '../Avatar';
 import { PostCommentForm } from '../PostCommentForm';
+import { Comment } from '../Comment/index';
 import styles from './Post.module.css'
 
 interface postProps {
@@ -22,7 +23,7 @@ export function Post({author, content}: postProps) {
                 </div>
 
                 <time
-                    title='11 de Novembro de 2022 às 19:02h'
+                    title='15 de Novembro de 2022 às 19:02h'
                     dateTime='2022-11-15 19:02:30'>
                         Publicado há 1h
                 </time>
@@ -40,6 +41,12 @@ export function Post({author, content}: postProps) {
             </div>
 
             <PostCommentForm />
+
+            <div className={styles.commentList}>
+                <Comment />
+                <Comment />
+                <Comment />
+            </div>
         </article>
     );
 }
