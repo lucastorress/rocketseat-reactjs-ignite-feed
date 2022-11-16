@@ -1,4 +1,5 @@
 import { Avatar } from '../Avatar';
+import { PostCommentForm } from '../PostCommentForm';
 import styles from './Post.module.css'
 
 interface postProps {
@@ -37,6 +38,8 @@ export function Post({author, content}: postProps) {
                     <a href=''>#rocketseat</a>
                 </p>
             </div>
+
+            <PostCommentForm />
         </article>
     );
 }
