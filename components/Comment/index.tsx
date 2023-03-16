@@ -5,13 +5,13 @@ import { ThumbsUp, Trash } from 'phosphor-react';
 export function Comment() {
     return (
         <div className={styles.comment}>
-            <Avatar hasBorder={false} src='https://github.com/lucastorress.png' />
+            <Avatar hasBorder={false} src='https://github.com/FeFranklin.png' />
 
             <div className={styles.commentBox}>
                 <div className={styles.commentContent}>
                     <header>
                         <div className={styles.authorAndTime}>
-                            <strong>Lucas Torres</strong>
+                            <strong>Felipe Franklin</strong>
                             <time
                                 title='16 de Novembro de 2022 às 19:02h'
                                 dateTime='2022-11-16 00:13:30'>
